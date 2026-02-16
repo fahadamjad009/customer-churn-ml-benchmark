@@ -1,5 +1,14 @@
 ﻿# Customer Churn ML Benchmark (Streamlit)
 
+## 🔴 Live Demo
+**Streamlit App:**  
+https://customer-churn-ml-benchmark-od5e3sqrbefzksy4sqpy6m.streamlit.app
+
+## 📂 Source Code
+**GitHub Repository:**  
+https://github.com/fahadamjad009/customer-churn-ml-benchmark
+
+
 A **production-style machine learning benchmarking system** for customer churn prediction, combining:
 
 * **Data Science experimentation**
