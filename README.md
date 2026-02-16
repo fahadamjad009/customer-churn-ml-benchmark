@@ -67,6 +67,12 @@ Frames ML in **decision-making context**:
 
 # 3. System Architecture
 
+## Architecture Diagram
+
+![Architecture](assets/architecture.png)
+
+
+
 ## High-Level Flow
 
 ```
