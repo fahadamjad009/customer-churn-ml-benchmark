@@ -1,4 +1,4 @@
-# Customer Churn ML Benchmark (Streamlit)
+﻿# Customer Churn ML Benchmark (Streamlit)
 
 A **production-style machine learning benchmarking system** for customer churn prediction, combining:
 
@@ -19,7 +19,7 @@ Customer churn is one of the **highest-impact business problems** across:
 * SaaS & subscription platforms
 * Insurance & utilities
 
-Reducing churn by even **1–2%** can generate **millions in retained revenue**.
+Reducing churn by even **1â€“2%** can generate **millions in retained revenue**.
 
 This project demonstrates how to design a **real-world churn prediction system** that is:
 
@@ -73,22 +73,32 @@ Frames ML in **decision-making context**:
 
 
 
+
+## Screenshots
+
+### Dataset preview + Model leaderboard
+![Dataset Preview](assets/dataset_preview.png)
+![Model Leaderboard](assets/leaderboard.png)
+
+### Evaluation plots (Confusion Matrix + ROC)
+![Confusion Matrix](assets/confusion_matrix.png)
+![ROC Curve](assets/roc_curve.png)
 ## High-Level Flow
 
 ```
 Raw CSV Dataset
-      ↓
+      â†“
 Data Loading & Validation
-      ↓
+      â†“
 Preprocessing Pipeline
  (Scaling + One-Hot Encoding)
-      ↓
+      â†“
 Model Training (Multiple Algorithms)
-      ↓
+      â†“
 Evaluation Metrics + ROC + Confusion Matrix
-      ↓
+      â†“
 Saved Model Artifacts (.joblib)
-      ↓
+      â†“
 Interactive Streamlit Dashboard
 ```
 
@@ -96,22 +106,22 @@ Interactive Streamlit Dashboard
 
 ```
 customer-churn-ml-benchmark/
-│
-├── app/                 # Streamlit dashboard
-├── src/churn/           # Core ML pipeline
-│   ├── data.py          # Loading & target resolution
-│   ├── preprocess.py    # Feature engineering pipeline
-│   ├── train.py         # Model training & metrics
-│   └── eval.py          # Visualization & summaries
-│
-├── data/
-│   ├── raw/             # Input dataset
-│   └── processed/       # Future feature sets
-│
-├── models/              # Saved trained models
-├── reports/             # Future experiment outputs
-├── docs/architecture.md # Design documentation
-└── README.md
+â”‚
+â”œâ”€â”€ app/                 # Streamlit dashboard
+â”œâ”€â”€ src/churn/           # Core ML pipeline
+â”‚   â”œâ”€â”€ data.py          # Loading & target resolution
+â”‚   â”œâ”€â”€ preprocess.py    # Feature engineering pipeline
+â”‚   â”œâ”€â”€ train.py         # Model training & metrics
+â”‚   â””â”€â”€ eval.py          # Visualization & summaries
+â”‚
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ raw/             # Input dataset
+â”‚   â””â”€â”€ processed/       # Future feature sets
+â”‚
+â”œâ”€â”€ models/              # Saved trained models
+â”œâ”€â”€ reports/             # Future experiment outputs
+â”œâ”€â”€ docs/architecture.md # Design documentation
+â””â”€â”€ README.md
 ```
 
 ---
@@ -132,8 +142,8 @@ customer-churn-ml-benchmark/
 
 ### Business Interpretation
 
-* **Short tenure + month-to-month contracts → high churn risk**
-* **Higher engagement services → lower churn probability**
+* **Short tenure + month-to-month contracts â†’ high churn risk**
+* **Higher engagement services â†’ lower churn probability**
 
 ---
 
@@ -141,8 +151,8 @@ customer-churn-ml-benchmark/
 
 ## Preprocessing
 
-* Numerical → **StandardScaler**
-* Categorical → **OneHotEncoder**
+* Numerical â†’ **StandardScaler**
+* Categorical â†’ **OneHotEncoder**
 * Combined via **ColumnTransformer**
 
 Ensures:
@@ -169,11 +179,11 @@ Ensures:
 
 ## Metrics Used
 
-* **Accuracy** → overall correctness
-* **Precision** → false-positive control
-* **Recall** → churn detection sensitivity
-* **F1 Score** → precision-recall balance
-* **ROC-AUC** → ranking quality across thresholds
+* **Accuracy** â†’ overall correctness
+* **Precision** â†’ false-positive control
+* **Recall** â†’ churn detection sensitivity
+* **F1 Score** â†’ precision-recall balance
+* **ROC-AUC** â†’ ranking quality across thresholds
 
 ### Why ROC-AUC Matters
 
@@ -209,7 +219,7 @@ The Streamlit UI provides:
 
 Typical churn datasets show:
 
-* **Recall is critical** → catching churners early
+* **Recall is critical** â†’ catching churners early
 * Random Forest often balances **precision + recall** best
 * Logistic regression provides **interpretability** for policy
 
@@ -264,7 +274,7 @@ Planned upgrades toward **enterprise ML system**:
 This project demonstrates capability to:
 
 * Design **end-to-end ML systems**
-* Translate **business problems → ML solutions**
+* Translate **business problems â†’ ML solutions**
 * Build **reproducible, production-structured pipelines**
 * Deliver **interactive analytics tools**
 
@@ -280,7 +290,8 @@ Aligned with roles such as:
 # Author
 
 **Fahad Amjad**
-Master of Data Science & Innovation — UTS
+Master of Data Science & Innovation â€” UTS
 GitHub: https://github.com/fahadamjad009
 
 ---
+
