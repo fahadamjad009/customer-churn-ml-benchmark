@@ -115,22 +115,23 @@ Interactive Streamlit Dashboard
 
 ```
 customer-churn-ml-benchmark/
-\‚
-\œ\€\€ app/                 # Streamlit dashboard
-\œ\€\€ src/churn/           # Core ML pipeline
-\‚   \œ\€\€ data.py          # Loading & target resolution
-\‚   \œ\€\€ preprocess.py    # Feature engineering pipeline
-\‚   \œ\€\€ train.py         # Model training & metrics
-\‚   \”\€\€ eval.py          # Visualization & summaries
-\‚
-\œ\€\€ data/
-\‚   \œ\€\€ raw/             # Input dataset
-\‚   \”\€\€ processed/       # Future feature sets
-\‚
-\œ\€\€ models/              # Saved trained models
-\œ\€\€ reports/             # Future experiment outputs
-\œ\€\€ docs/architecture.md # Design documentation
-\”\€\€ README.md
+│
+├── app/                 # Streamlit dashboard
+├── src/churn/           # Core ML pipeline
+│   ├── data.py          # Loading & target resolution
+│   ├── preprocess.py    # Feature engineering pipeline
+│   ├── train.py         # Model training & metrics
+│   └── eval.py          # Visualization & summaries
+│
+├── data/
+│   ├── raw/             # Input dataset
+│   └── processed/       # Future feature sets
+│
+├── models/              # Saved trained models
+├── reports/             # Future experiment outputs
+├── docs/architecture.md # Design documentation
+└── README.md
+
 ```
 
 -
@@ -287,20 +288,7 @@ This project demonstrates capability to:
 * Build **reproducible, production-structured pipelines**
 * Deliver **interactive analytics tools**
 
-Aligned with roles such as:
 
-* Data Scientist
-* Machine Learning Engineer
-* Analytics Engineer
-* Applied AI Engineer
-
--
-
-# Author
-
-**Fahad Amjad**
-Master of Data Science & Innovation - UTS
-GitHub: https://github.com/fahadamjad009
 
 -
 
