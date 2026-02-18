@@ -17,7 +17,7 @@ A **production-style machine learning benchmarking system** for customer churn p
 
 Delivered through an **interactive Streamlit dashboard** with reproducible training, evaluation, and visualization.
 
----
+-
 
 # 1. Project Purpose
 
@@ -28,7 +28,7 @@ Customer churn is one of the **highest-impact business problems** across:
 * SaaS & subscription platforms
 * Insurance & utilities
 
-Reducing churn by even **1â€“2%** can generate **millions in retained revenue**.
+Reducing churn by even **1-2%** can generate **millions in retained revenue**.
 
 This project demonstrates how to design a **real-world churn prediction system** that is:
 
@@ -36,7 +36,7 @@ This project demonstrates how to design a **real-world churn prediction system**
 * **Operationally structured** (clean pipeline & reproducibility)
 * **Business meaningful** (actionable churn insights)
 
----
+-
 
 # 2. Portfolio Positioning
 
@@ -72,7 +72,7 @@ Frames ML in **decision-making context**:
 * Supports KPI tracking via ROC-AUC & recall
 * Provides interpretable confusion matrices for stakeholders
 
----
+-
 
 # 3. System Architecture
 
@@ -96,18 +96,18 @@ Frames ML in **decision-making context**:
 
 ```
 Raw CSV Dataset
-      â†“
+      v
 Data Loading & Validation
-      â†“
+      v
 Preprocessing Pipeline
  (Scaling + One-Hot Encoding)
-      â†“
+      v
 Model Training (Multiple Algorithms)
-      â†“
+      v
 Evaluation Metrics + ROC + Confusion Matrix
-      â†“
+      v
 Saved Model Artifacts (.joblib)
-      â†“
+      v
 Interactive Streamlit Dashboard
 ```
 
@@ -115,25 +115,25 @@ Interactive Streamlit Dashboard
 
 ```
 customer-churn-ml-benchmark/
-â”‚
-â”œâ”€â”€ app/                 # Streamlit dashboard
-â”œâ”€â”€ src/churn/           # Core ML pipeline
-â”‚   â”œâ”€â”€ data.py          # Loading & target resolution
-â”‚   â”œâ”€â”€ preprocess.py    # Feature engineering pipeline
-â”‚   â”œâ”€â”€ train.py         # Model training & metrics
-â”‚   â””â”€â”€ eval.py          # Visualization & summaries
-â”‚
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ raw/             # Input dataset
-â”‚   â””â”€â”€ processed/       # Future feature sets
-â”‚
-â”œâ”€â”€ models/              # Saved trained models
-â”œâ”€â”€ reports/             # Future experiment outputs
-â”œâ”€â”€ docs/architecture.md # Design documentation
-â””â”€â”€ README.md
+\‚
+\œ\€\€ app/                 # Streamlit dashboard
+\œ\€\€ src/churn/           # Core ML pipeline
+\‚   \œ\€\€ data.py          # Loading & target resolution
+\‚   \œ\€\€ preprocess.py    # Feature engineering pipeline
+\‚   \œ\€\€ train.py         # Model training & metrics
+\‚   \”\€\€ eval.py          # Visualization & summaries
+\‚
+\œ\€\€ data/
+\‚   \œ\€\€ raw/             # Input dataset
+\‚   \”\€\€ processed/       # Future feature sets
+\‚
+\œ\€\€ models/              # Saved trained models
+\œ\€\€ reports/             # Future experiment outputs
+\œ\€\€ docs/architecture.md # Design documentation
+\”\€\€ README.md
 ```
 
----
+-
 
 # 4. Dataset
 
@@ -142,7 +142,7 @@ customer-churn-ml-benchmark/
 ### Key Characteristics
 
 | Feature Type | Examples                              |
-| ------------ | ------------------------------------- |
+|  | - |
 | Demographic  | Gender, SeniorCitizen, Dependents     |
 | Account      | Tenure, Contract type, Payment method |
 | Services     | Internet, Streaming, Tech support     |
@@ -151,17 +151,17 @@ customer-churn-ml-benchmark/
 
 ### Business Interpretation
 
-* **Short tenure + month-to-month contracts â†’ high churn risk**
-* **Higher engagement services â†’ lower churn probability**
+* **Short tenure + month-to-month contracts -> high churn risk**
+* **Higher engagement services -> lower churn probability**
 
----
+-
 
 # 5. Machine Learning Pipeline
 
 ## Preprocessing
 
-* Numerical â†’ **StandardScaler**
-* Categorical â†’ **OneHotEncoder**
+* Numerical -> **StandardScaler**
+* Categorical -> **OneHotEncoder**
 * Combined via **ColumnTransformer**
 
 Ensures:
@@ -170,29 +170,29 @@ Ensures:
 * Reproducible feature engineering
 * Production-safe transformations
 
----
+-
 
 ## Models Benchmarked
 
 | Model                  | Purpose                     |
-| ---------------------- | --------------------------- |
+|  | - |
 | Logistic Regression    | Interpretable baseline      |
 | K-Nearest Neighbors    | Local similarity patterns   |
 | Random Forest          | Non-linear ensemble power   |
 | Support Vector Machine | Margin-based classification |
 | Decision Tree          | Explainable structure       |
 
----
+-
 
 # 6. Evaluation Framework
 
 ## Metrics Used
 
-* **Accuracy** â†’ overall correctness
-* **Precision** â†’ false-positive control
-* **Recall** â†’ churn detection sensitivity
-* **F1 Score** â†’ precision-recall balance
-* **ROC-AUC** â†’ ranking quality across thresholds
+* **Accuracy** -> overall correctness
+* **Precision** -> false-positive control
+* **Recall** -> churn detection sensitivity
+* **F1 Score** -> precision-recall balance
+* **ROC-AUC** -> ranking quality across thresholds
 
 ### Why ROC-AUC Matters
 
@@ -201,7 +201,7 @@ In churn prediction:
 > Missing a real churner is **more costly** than a false alarm.
 > ROC-AUC measures **ranking ability**, not just classification.
 
----
+-
 
 # 7. Interactive Dashboard
 
@@ -222,19 +222,19 @@ The Streamlit UI provides:
 4. Analyze confusion matrix
 5. Compare ROC curves
 
----
+-
 
 # 8. Business Insight Example
 
 Typical churn datasets show:
 
-* **Recall is critical** â†’ catching churners early
+* **Recall is critical** -> catching churners early
 * Random Forest often balances **precision + recall** best
 * Logistic regression provides **interpretability** for policy
 
 This mirrors **real telecom retention analytics**.
 
----
+-
 
 # 9. How to Run Locally
 
@@ -251,7 +251,7 @@ Then open:
 http://localhost:8502
 ```
 
----
+-
 
 # 10. Tech Stack
 
@@ -263,7 +263,7 @@ http://localhost:8502
 * **Joblib**
 * **GitHub CI-ready structure**
 
----
+-
 
 # 11. Future Production Extensions
 
@@ -276,14 +276,14 @@ Planned upgrades toward **enterprise ML system**:
 * Docker deployment
 * Cloud hosting (AWS / Azure / GCP)
 
----
+-
 
 # 12. Professional Value
 
 This project demonstrates capability to:
 
 * Design **end-to-end ML systems**
-* Translate **business problems â†’ ML solutions**
+* Translate **business problems -> ML solutions**
 * Build **reproducible, production-structured pipelines**
 * Deliver **interactive analytics tools**
 
@@ -294,14 +294,17 @@ Aligned with roles such as:
 * Analytics Engineer
 * Applied AI Engineer
 
----
+-
 
 # Author
 
 **Fahad Amjad**
-Master of Data Science & Innovation â€” UTS
+Master of Data Science & Innovation - UTS
 GitHub: https://github.com/fahadamjad009
 
----
+-
+
+
+
 
 
