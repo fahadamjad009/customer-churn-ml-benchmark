@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "customer-churn-ml-benchmark"
+version = "0.1.0"
+description = "Consultant-tier churn ML platform: calibrated gradient boosting, CLV-weighted business metrics, decile lift, segment analysis, SHAP drivers, and a campaign ROI simulator."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Fahad Amjad" }
+]
+keywords = [
+  "customer-churn",
+  "churn-prediction",
+  "xgboost",
+  "lightgbm",
+  "shap",
+  "calibrated-classifier",
+  "decile-lift",
+  "customer-lifetime-value",
+  "retention-analytics",
+  "business-metrics"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Financial and Insurance Industry",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/fahadamjad009/customer-churn-ml-benchmark"
+Repository = "https://github.com/fahadamjad009/customer-churn-ml-benchmark"
+Demo = "https://customer-churn-ml-benchmark-od5e3sqrbefzksy4sqpy6m.streamlit.app"
+
+[tool.setuptools.packages.find]
+where = ["src"]

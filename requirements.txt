@@ -1,6 +1,21 @@
-﻿streamlit
-pandas
-numpy
-scikit-learn
-matplotlib
-joblib
+# ─── Core ───
+python-dotenv==1.0.1
+pyyaml==6.0.2
+
+# ─── Data ───
+pandas==2.2.3
+numpy==1.26.4
+pyarrow==18.1.0
+
+# ─── ML ─── (sklearn pinned for model compatibility)
+scikit-learn==1.5.2
+xgboost==2.1.3
+lightgbm==4.5.0
+shap==0.46.0
+
+# ─── Persistence ───
+joblib==1.4.2
+
+# ─── Dashboard ───
+streamlit==1.40.2
+plotly==5.24.1

@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.py[cod]
 *.pyd
@@ -11,22 +11,40 @@ build/
 venv/
 .env
 
-# Jupyter
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .ipynb_checkpoints/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
 
 # Streamlit
 .streamlit/secrets.toml
 
-# Data / models (don’t commit large artifacts)
+# Data / models / scratch artifacts
 data/raw/*
 data/processed/*
 models/*
 !data/raw/.gitkeep
+!data/raw/churn.csv
 !data/processed/.gitkeep
 !models/.gitkeep
+
+# Logs
+*.log
+logs/
 
 # OS / IDE
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
+# Scratch
+tmp/
+scratch/
+_tmp_*.py
