@@ -1,0 +1,40 @@
+{
+  "champion": "lr",
+  "results": [
+    {
+      "model": "lr",
+      "pr_auc": 0.6504006996535838,
+      "roc_auc": 0.8446769485132657,
+      "brier": 0.13629384822610166,
+      "holdout_n": 1409,
+      "holdout_positive_rate": 0.2654364797728886
+    },
+    {
+      "model": "xgboost",
+      "pr_auc": 0.6444990573322027,
+      "roc_auc": 0.836846728151076,
+      "brier": 0.13869933857305727,
+      "holdout_n": 1409,
+      "holdout_positive_rate": 0.2654364797728886
+    },
+    {
+      "model": "lightgbm",
+      "pr_auc": 0.6347651767398071,
+      "roc_auc": 0.8343111421116537,
+      "brier": 0.14011897020956282,
+      "holdout_n": 1409,
+      "holdout_positive_rate": 0.2654364797728886
+    }
+  ],
+  "champion_cost_based_threshold": {
+    "threshold": 0.32,
+    "n_flagged": 488,
+    "true_pos": 274,
+    "outreach_cost": 39040.0,
+    "retained_value": 65760.0,
+    "net_benefit": 26720.0
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "calibration": "isotonic, cv=5"
+}

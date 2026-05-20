@@ -33,6 +33,7 @@ models/*
 !data/raw/churn.csv
 !data/processed/.gitkeep
 !models/.gitkeep
+!models/leaderboard.json
 
 # Logs
 *.log
