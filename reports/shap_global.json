@@ -1,0 +1,66 @@
+{
+  "top_features": [
+    {
+      "feature": "contract_months",
+      "mean_abs_shap": 0.722786009311676
+    },
+    {
+      "feature": "charge_ratio",
+      "mean_abs_shap": 0.3659927546977997
+    },
+    {
+      "feature": "avg_charges_per_month",
+      "mean_abs_shap": 0.2711179852485657
+    },
+    {
+      "feature": "OnlineSecurity_No",
+      "mean_abs_shap": 0.2607787847518921
+    },
+    {
+      "feature": "tenure",
+      "mean_abs_shap": 0.2566872537136078
+    },
+    {
+      "feature": "MonthlyCharges",
+      "mean_abs_shap": 0.22346408665180206
+    },
+    {
+      "feature": "InternetService_Fiber optic",
+      "mean_abs_shap": 0.1686982810497284
+    },
+    {
+      "feature": "TotalCharges",
+      "mean_abs_shap": 0.168165385723114
+    },
+    {
+      "feature": "TechSupport_No",
+      "mean_abs_shap": 0.16776981949806213
+    },
+    {
+      "feature": "PaymentMethod_Electronic check",
+      "mean_abs_shap": 0.16245880722999573
+    },
+    {
+      "feature": "Contract_Month-to-month",
+      "mean_abs_shap": 0.15208138525485992
+    },
+    {
+      "feature": "MultipleLines_No",
+      "mean_abs_shap": 0.10938969254493713
+    },
+    {
+      "feature": "PaperlessBilling_No",
+      "mean_abs_shap": 0.10839007794857025
+    },
+    {
+      "feature": "OnlineBackup_No",
+      "mean_abs_shap": 0.06163472309708595
+    },
+    {
+      "feature": "SeniorCitizen_No",
+      "mean_abs_shap": 0.051273223012685776
+    }
+  ],
+  "n_features_total": 56,
+  "shap_reference_model": "uncalibrated XGBoost, single fit on full train set"
+}

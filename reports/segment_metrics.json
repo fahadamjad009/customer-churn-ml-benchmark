@@ -1,0 +1,178 @@
+{
+  "Contract": [
+    {
+      "value": "Month-to-month",
+      "n_customers": 773,
+      "churn_rate": 0.425614489003881,
+      "lift_vs_overall": 1.6034513770226424,
+      "mean_score": 0.42958379787565726,
+      "flagged": 476,
+      "true_positives": 270,
+      "segment_recall": 0.8206686930091185,
+      "clv_total": 1224705.6,
+      "clv_captured": 493870.80000000005
+    },
+    {
+      "value": "One year",
+      "n_customers": 300,
+      "churn_rate": 0.12,
+      "lift_vs_overall": 0.45208556149732615,
+      "mean_score": 0.11623138410225735,
+      "flagged": 12,
+      "true_positives": 4,
+      "segment_recall": 0.1111111111111111,
+      "clv_total": 455710.79999999993,
+      "clv_captured": 9585.6
+    },
+    {
+      "value": "Two year",
+      "n_customers": 336,
+      "churn_rate": 0.026785714285714284,
+      "lift_vs_overall": 0.10091195569136745,
+      "mean_score": 0.02895813855246661,
+      "flagged": 0,
+      "true_positives": 0,
+      "segment_recall": 0.0,
+      "clv_total": 486812.4,
+      "clv_captured": 0.0
+    }
+  ],
+  "tenure_bucket": [
+    {
+      "value": "0-12",
+      "n_customers": 449,
+      "churn_rate": 0.47884187082405344,
+      "lift_vs_overall": 1.8039791336660194,
+      "mean_score": 0.4749784762848264,
+      "flagged": 288,
+      "true_positives": 177,
+      "segment_recall": 0.8232558139534883,
+      "clv_total": 600555.6000000001,
+      "clv_captured": 297056.4
+    },
+    {
+      "value": "12-24",
+      "n_customers": 206,
+      "churn_rate": 0.2912621359223301,
+      "lift_vs_overall": 1.097295052177976,
+      "mean_score": 0.29976551794214884,
+      "flagged": 97,
+      "true_positives": 49,
+      "segment_recall": 0.8166666666666667,
+      "clv_total": 314683.2,
+      "clv_captured": 100400.4
+    },
+    {
+      "value": "24-48",
+      "n_customers": 304,
+      "churn_rate": 0.21052631578947367,
+      "lift_vs_overall": 0.7931325640303968,
+      "mean_score": 0.19651230736466108,
+      "flagged": 73,
+      "true_positives": 37,
+      "segment_recall": 0.578125,
+      "clv_total": 481431.6,
+      "clv_captured": 81396.0
+    },
+    {
+      "value": "48+",
+      "n_customers": 450,
+      "churn_rate": 0.07777777777777778,
+      "lift_vs_overall": 0.2930184194890077,
+      "mean_score": 0.09313522567858303,
+      "flagged": 30,
+      "true_positives": 11,
+      "segment_recall": 0.3142857142857143,
+      "clv_total": 770558.4,
+      "clv_captured": 24603.600000000002
+    }
+  ],
+  "PaymentMethod": [
+    {
+      "value": "Electronic check",
+      "n_customers": 474,
+      "churn_rate": 0.4345991561181435,
+      "lift_vs_overall": 1.6373000293327917,
+      "mean_score": 0.4551441246211484,
+      "flagged": 304,
+      "true_positives": 178,
+      "segment_recall": 0.8640776699029126,
+      "clv_total": 864230.3999999999,
+      "clv_captured": 334532.4
+    },
+    {
+      "value": "Bank transfer (automatic)",
+      "n_customers": 300,
+      "churn_rate": 0.19,
+      "lift_vs_overall": 0.7158021390374332,
+      "mean_score": 0.15451040413914302,
+      "flagged": 47,
+      "true_positives": 30,
+      "segment_recall": 0.5263157894736842,
+      "clv_total": 467608.8,
+      "clv_captured": 57931.2
+    },
+    {
+      "value": "Mailed check",
+      "n_customers": 326,
+      "churn_rate": 0.18404907975460122,
+      "lift_vs_overall": 0.6933827630327088,
+      "mean_score": 0.19330821233482492,
+      "flagged": 76,
+      "true_positives": 34,
+      "segment_recall": 0.5666666666666667,
+      "clv_total": 346771.19999999995,
+      "clv_captured": 50929.200000000004
+    },
+    {
+      "value": "Credit card (automatic)",
+      "n_customers": 309,
+      "churn_rate": 0.1650485436893204,
+      "lift_vs_overall": 0.6218005295675199,
+      "mean_score": 0.16685343692190596,
+      "flagged": 61,
+      "true_positives": 32,
+      "segment_recall": 0.6274509803921569,
+      "clv_total": 488618.4000000001,
+      "clv_captured": 60063.6
+    }
+  ],
+  "InternetService": [
+    {
+      "value": "Fiber optic",
+      "n_customers": 613,
+      "churn_rate": 0.4110929853181077,
+      "lift_vs_overall": 1.5487433591262398,
+      "mean_score": 0.43042845472883784,
+      "flagged": 376,
+      "true_positives": 216,
+      "segment_recall": 0.8571428571428571,
+      "clv_total": 1336153.2000000002,
+      "clv_captured": 443139.60000000003
+    },
+    {
+      "value": "DSL",
+      "n_customers": 484,
+      "churn_rate": 0.20041322314049587,
+      "lift_vs_overall": 0.7550327042913333,
+      "mean_score": 0.1874715875873505,
+      "flagged": 111,
+      "true_positives": 58,
+      "segment_recall": 0.5979381443298969,
+      "clv_total": 674271.5999999999,
+      "clv_captured": 60316.8
+    },
+    {
+      "value": "No",
+      "n_customers": 312,
+      "churn_rate": 0.08012820512820513,
+      "lift_vs_overall": 0.3018733717263129,
+      "mean_score": 0.07076517436260854,
+      "flagged": 1,
+      "true_positives": 0,
+      "segment_recall": 0.0,
+      "clv_total": 156804.0,
+      "clv_captured": 0.0
+    }
+  ]
+}
