@@ -1,4 +1,5 @@
 # Customer Churn Retention Platform
+![CI](https://github.com/fahadamjad009/customer-churn-ml-benchmark/actions/workflows/ci.yml/badge.svg)
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-C9A961?style=flat-square)](LICENSE)
